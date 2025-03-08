@@ -29,8 +29,7 @@ text-enhancer-api/
 ## 🔧 Installation & Setup
 ### **1️⃣ Clone the Repository**
 ```sh
-git clone https://github.com/your-repo/text-enhancer-api.git
-
+https://github.com/Sandeepk14/Text-Enhancer-Api.git
 cd text-enhancer-api
 ```
 
@@ -136,6 +135,6 @@ This project is licensed under the **MIT License**.
 ---
 
 ## 📞 Contact
-For support, contact **[Your Name]** at **your.email@example.com**  
-GitHub: **[Your GitHub Profile](https://github.com/your-profile)**
+For support, contact **[Your Name]** at **skraj5873@gmail.com**  
+GitHub: **[Your GitHub Profile](https://github.com/Sandeepk14/)**
 
