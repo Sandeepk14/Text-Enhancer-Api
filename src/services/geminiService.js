@@ -64,15 +64,15 @@ const extractBestEnhancedSentence = (text) => {
 const generatePrompt = (text, type) => {
   switch (type) {
     case "shorten":
-      return `Make the following text more concise:\n\n"${text}"\n\nProvide only the improved version.`;
+      return `Make the following text more concise while preserving its meaning. Keep the tone natural and readable:\n\n"${text}"\n\nProvide only the improved version.`;
     case "lengthen":
-      return `Expand the following text with more details:\n\n"${text}"\n\nProvide only the improved version.`;
+      return `Expand the following text by adding more descriptive details and richer vocabulary. Make it engaging and fluent:\n\n"${text}"\n\nProvide only the enhanced version.`;
     case "formal":
-      return `Rewrite the following text in a formal tone:\n\n"${text}"\n\nProvide only the improved version.`;
+      return `Rewrite the following text in a professional and respectful manner. Use proper grammar and polite language:\n\n"${text}"\n\nProvide only the improved version.`;
     case "casual":
-      return `Rewrite the following text in a casual tone:\n\n"${text}"\n\nProvide only the improved version.`;
+      return `Rewrite the following text in a relaxed and conversational tone. Keep it friendly and natural:\n\n"${text}"\n\nProvide only the improved version.`;
     default:
-      return `Improve the following text with better vocabulary and clarity:\n\n"${text}"\n\nProvide only the improved version.`;
+      return `Improve the following text with better vocabulary, structure, and clarity while keeping its original meaning:\n\n"${text}"\n\nProvide only the improved version.`;
   }
 };
 
