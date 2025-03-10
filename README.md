@@ -70,7 +70,7 @@ node server.js
   {
     "success": true,
     "message": "Text enhancement successful",
-    "enhancedText": "She stepped gracefully into the room and settled into a chair with ease."
+    "enhancedText": "Entering the room, she seated herself."
   }
   ```
 
@@ -88,19 +88,20 @@ node server.js
   {
     "success": true,
     "message": "Text modified successfully - formal",
-    "modifiedText": "Hello, could you kindly send me that report at your earliest convenience?"
+    "modifiedText": "Having swiftly completed her tasks, she departed the office."
   }
   ```
 
 ---
 
 ## 🛠 Supported Modifications
-| **Type**  | **Example Input**  | **Expected Output**  |
-|----------|-------------------|---------------------|
-| **Shorten**  | "She quickly finished her work and left the office." | "She finished her work and left." |
-| **Lengthen** | "She smiled." | "She smiled warmly, her eyes glimmering with joy as she recalled the moment." |
-| **Formal**   | "Hey, can you send me that report real quick?" | "Hello, could you kindly send me that report at your earliest convenience?" |
-| **Casual**   | "The meeting has been scheduled for 3 PM in the conference room." | "Hey, the meeting’s set for 3 PM in the conference room!" |
+
+| Type       | Example Input                                      | Expected Output                                           |
+|------------|---------------------------------------------------|----------------------------------------------------------|
+| **Shorten** | "She quickly finished her work and left the office." | "Having swiftly completed her tasks, she departed the office." |
+| **Lengthen** | "AI is transforming the world."                 | "Artificial intelligence is revolutionizing global society..." |
+| **Formal** | "Hey, can you send me that report real quick?"   | "Could you please send me the report at your earliest convenience?" |
+| **Casual** | "The meeting has been scheduled in the conference room." | "The conference room is reserved for the meeting." |
 
 ---
 
